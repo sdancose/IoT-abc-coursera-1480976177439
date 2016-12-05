@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-abc-coursera
+  host: IoT-abc-coursera
+  disk_quota: 1024M
+  services:
+  - IoT-abc-coursera-cloudantNoSQLDB
+  - IoT-abc-coursera-iotf-service
